@@ -37,12 +37,12 @@ function calculatePrice(order) {
 // Buyurtma qabul qilish funksiyasi
 function pizzaReadyCallback(order, totalPrice) {
     // Buyurtma tayyor bolgan holatini korsatiladi
-    console.log(`Pizza\nid: ${order.id}\nType: ${order.type}\nSize: ${order.size} \nHolati:Tayyor\nNarx: ${totalPrice}`);
+    console.log(`Pizza\nid: ${order.id}\nType: ${order.type}\nSize: ${order.size} \nHolati:Tayyor\nNarx: ${totalPrice} so'm`);
 }
 // Bu funksiya typga qarab vaqt olish funksiya
 function orderPizza(order, callback) {
     // Buyurtma pishirish jarayonida
-    console.log(`id: ${order.id}\nType: ${order.type}\nSize: ${order.size}\n Holati: Pishirish boshlandi...`);
+    console.log(`id: ${order.id}\nType: ${order.type}\nSize: ${order.size}\nHolati: Pishirish boshlandi...`);
 
     // Buyurtma qancha vaqt olish
     let cookingTime = 2_000
