@@ -48,3 +48,14 @@
 //     return true
 // }
 // console.log(isEqual("abc", "bac"));
+
+// task-4
+// function fibonacci(n) {
+//     if (n < 0) {
+//         return "Musbat butun son kiriting!";
+//     }
+//     if (n === 0) return 0;
+//     if (n === 1) return 1;
+//     return fibonacci(n - 1) + fibonacci(n - 2);
+// }
+// console.log(fibonacci(10));

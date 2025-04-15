@@ -1,12 +1,10 @@
-// task-1
-// function func1(a) {
-//     sum = 0;
-//     return function(b){
-//         for (let i = 1; i <= a; i++){
-//             sum += i ** b;
-//         }
-//         console.log(sum);
+// task-4
+// function fibonacci(n) {
+//     if (n < 0) {
+//         return "Musbat butun son kiriting!";
 //     }
+//     if (n === 0) return 0;
+//     if (n === 1) return 1;
+//     return fibonacci(n - 1) + fibonacci(n - 2);
 // }
-// func1(2)(2)
-
+// console.log(fibonacci(10));
