@@ -1,13 +1,15 @@
 // Home work
 // task-1
-// function calc(x, y) {
-//     let sum=0
-//     for (let i = 1; i <= x; i++){
-//         sum+=i**y
-//     }
-//     return sum
+// task-1
+// function func1(a) {
+//     sum = 0;
+//     return function(b){
+//         for (let i = 1; i <= a; i++){
+//             sum += i ** b;
+//         }console.log(sum);
+//     };
 // }
-// console.log(calc(3,4));
+// func1(2)(2)
 
 // task-2
 // function isPrime(num) {
